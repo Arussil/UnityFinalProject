@@ -800,7 +800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba1204ed5610752897fb061e68306b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerClass: 
 --- !u!4 &1759067929
 Transform:
   m_ObjectHideFlags: 0

@@ -8,13 +8,13 @@ public class MainMenuUIHandler : MonoBehaviour
 
     public void MinerSelected()
     {
-        DataManager.instance.playerClass = "miner";
+        DataManager.instance.playerClass = new Miner();
         SceneManager.LoadScene(1);
     }
     
     public void LumberjackSelected()
     {
-        DataManager.instance.playerClass = "lumberjack";
+        DataManager.instance.playerClass = new Lumberjack();
         SceneManager.LoadScene(1);
     }
 }

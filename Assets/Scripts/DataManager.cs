@@ -5,7 +5,7 @@ using UnityEngine;
 public class DataManager : MonoBehaviour
 {
     public static DataManager instance;
-    public string playerClass;
+    public BasePlayerClass playerClass;
 
     private void Awake()
     {
